@@ -1,0 +1,8 @@
+t=(1,6,2,5,3,4)
+print("the given tuple is:")
+print(t)
+l=list(t)
+l.sort()
+t2=tuple(l)
+print("the sorted tuple is:")
+print(t2)
